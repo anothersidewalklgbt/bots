@@ -3,7 +3,7 @@ import asyncio
 
 # Lista con los tokens de tus 5 cuentas
 TOKENS = [
-    "MTQxMDY0ODgzOTA5Mzg4MzAyNQ.GUPKeG.-ih9lLMt-J1gWv3nXeulw5XOc5uGh_CeaL-yFA"
+    "MTM5ODgwODI4NzE2NzY0Nzg0Nw.GEoAZc.VCwuR5dbw1JaRMjQUhpDql5ESSy_-E4hhVOL74"
 ]
 
 CHANNEL_ID = 1403068635869741147  # ID del canal donde usarás ,work
@@ -29,4 +29,5 @@ async def main():
 
 # Ejecuta todas las cuentas
 asyncio.run(main())
+
 
