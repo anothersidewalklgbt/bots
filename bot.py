@@ -3,12 +3,7 @@ import asyncio
 
 # Lista con los tokens de tus 5 cuentas
 TOKENS = [
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "MTQxMDY0ODgzOTA5Mzg4MzAyNQ.GUPKeG.-ih9lLMt-J1gWv3nXeulw5XOc5uGh_CeaL-yFA"
 ]
 
 CHANNEL_ID = 1403068635869741147  # ID del canal donde usarás ,work
@@ -22,7 +17,7 @@ async def run_bot(token):
         print(f"Conectado como {client.user}")
         canal = client.get_channel(CHANNEL_ID)
         while True:
-            await canal.send(",give DMR all")  # o cualquier comando que quieras
+            await canal.send("Hello")  # o cualquier comando que quieras
             print(f"Comando enviado desde {client.user}")
             await asyncio.sleep(INTERVALO)
 
@@ -34,3 +29,4 @@ async def main():
 
 # Ejecuta todas las cuentas
 asyncio.run(main())
+
