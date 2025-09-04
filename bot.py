@@ -3,7 +3,7 @@ import asyncio
 
 # Lista con los tokens de tus 6 cuentas
 TOKENS = [
-    #"MTMzMDEyMDUwNDU1MTUzODc5MA.GEq9Xd.OY6gZ46lUWrnOP9vrJBJpD0FcaEYoPEu-iv-0k",
+    "MTMzMDEyMDUwNDU1MTUzODc5MA.GEq9Xd.OY6gZ46lUWrnOP9vrJBJpD0FcaEYoPEu-iv-0k",
     "MTExNTY3ODc0NDY5OTQ4NjI2OQ.GQB6F-.ebCsRAp4hfPp4TXTj35Xy136imPLei8gJGi8A8",
     "MTQxMDY1NDIxNjYzMjAxMjk2Mw.GSYw67.NQmmldSAvxapZzN24uuF8jfaEISveO6F3kJapo",
     "MTM5ODgwODI4NzE2NzY0Nzg0Nw.GeR0ly.q_WlWm2b8Q0GAEK9a6VNX1ML5RxI8mYObKEHNk",
@@ -76,3 +76,4 @@ async def main():
     await asyncio.gather(*(run_bot(token, i) for i, token in enumerate(TOKENS)))
 
 asyncio.run(main())
+
